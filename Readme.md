@@ -1,3 +1,5 @@
+# Steps and Screenshots attached
+
 # Simulator 
 
 
@@ -26,10 +28,10 @@ gcloud beta iot registries create iotlab-registry \ –project=$PROJECT_ID \ –
 ![image](https://user-images.githubusercontent.com/98665151/207822428-72d098e5-3cfa-4abb-883e-5bd51f64698e.png)
 
 # Create Pub/Sub - streaming data for real-time analysis
-COngfiure a pub/sub like this image
+Congfiure a pub/sub like this image
 ![image](https://user-images.githubusercontent.com/98665151/207823819-66684e90-f01d-4b4d-8a1a-e405a504247a.png)
 
-# Dataflow - to preprocess data
+# Dataflow - to preprocess data and send from Cloud PubSub Topic to BigQuery
 ![image](https://user-images.githubusercontent.com/98665151/207823605-da91c1b1-e088-4a02-950b-78ee9e8e0047.png)
 
 
@@ -37,20 +39,10 @@ COngfiure a pub/sub like this image
 ![image](https://user-images.githubusercontent.com/98665151/207824145-671ea948-c9fa-4b20-8f35-c94b322f3e39.png)
 
 
-
-
-
 # ML model deployment using Cloud Functiosn 
 ![image](https://user-images.githubusercontent.com/98665151/207823483-69f88224-0494-4ab3-964e-51860008ee5e.png)
 
-
-
-# Creating Big Query:
-
-# Data Flow
-
-# Sensor Data big query
-
+Refer to folder `cloudfunctions` for deploy code
 
 
 Reference:https://timewithai.wordpress.com/2019/07/27/building-an-iot-analytics-pipeline-on-google-cloud-platform-step-by-step/
