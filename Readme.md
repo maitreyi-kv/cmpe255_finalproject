@@ -1,6 +1,5 @@
 # Create Pub/Sub:
 ![](images/pubsub.png)
-![](images/pubsub_permissions.png)
 
 
 # Creating Big Query:
