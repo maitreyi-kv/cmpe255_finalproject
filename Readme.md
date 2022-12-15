@@ -1,6 +1,5 @@
 # Simulator 
 
-![image](https://user-images.githubusercontent.com/98665151/207822960-a0e32030-d912-4f85-b5b0-89832defaca7.png)
 
 1. Register the device with IoT Core (Once the next step is done)
 
@@ -12,7 +11,9 @@ cloud beta iot devices create hospital-center-1 \
   --public-key path=rsa_cert.pem,type=rs256
 ```
 
-2. Run the file `python cloudiot_mqtt_biomech.py`
+2. Run the file `python simulator.py`
+
+![image](https://user-images.githubusercontent.com/98665151/207822960-a0e32030-d912-4f85-b5b0-89832defaca7.png)
 
 # Configure IoT Core - Using it for device management
 
